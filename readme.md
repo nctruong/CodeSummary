@@ -1,12 +1,12 @@
 # COFFESCRIP SYNTAX
 empty constructor
-```javascript
+```CoffeeScript
   constructor: ->
 ````
 
 @ is class variable, requestRoutePlan is function's name, (departure, arrival) is parameter, $.get is call ajax using get method
 
-```javascript
+```CoffeeScript
   @requestRoutePlan: (departure, arrival) ->
     request = $.get('/request/route/',
       {route:
@@ -20,7 +20,7 @@ empty constructor
 
 # UTILS
 **Loading bar**
-```javascript
+```CoffeeScript
   startLoadingBar: (state_strings) ->
     $('.loading_overlay').show()
     loading_bar_states = state_strings
@@ -33,9 +33,44 @@ empty constructor
     )
     
 ```
-**Check status and alert
+**Check status and alert**
 ```CoffeeScript
   request = Models.Storage.requestRoutePlan(departure, arrival)
   request.fail () -> alert('There was problem to draw the shortest route.')
 ```
+
+```CoffeeScript
+```
     
+```CoffeeScript
+```
+
+```CoffeeScript
+```
+
+```CoffeeScript
+```
+
+```CoffeeScript
+```
+
+```CoffeeScript
+```
+
+```CoffeeScript
+```
+
+```CoffeeScript
+```
+
+```CoffeeScript
+```
+
+```CoffeeScript
+```
+
+```CoffeeScript
+```
+
+```CoffeeScript
+```
