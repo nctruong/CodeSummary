@@ -16,3 +16,18 @@ empty constructor
     request
     
 ```
+
+**Loading bar
+```javascript
+  @requestRoutePlan: (departure, arrival) ->
+    request = $.get('/request/route/',
+      {route:
+        { departure: departure,
+          arrival: arrival
+        }
+      })
+    request
+    
+```
+
+
