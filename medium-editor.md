@@ -1,6 +1,19 @@
+## CSS
+```css
+// no border for textarea
+textarea {
+  border: none;
+  overflow: auto;
+  outline: none;
+
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+```
 ## HAML
-```html
- = text_area_tag "subtitle", @video.subtitle, :class => "form-control col-lg-12", :rows => "20", :id => "cont", :class => "editable"
+```haml
+= text_area_tag "subtitle", @video.subtitle, :class => "editable col-lg-12", :rows => "20", :id => "cont"
       %a#trans.btn.btn-primary.pull-right{remote:true,'data-wizard' => 'next', :href => '#exampleWizardForm', :role => 'button'}= I18n.t('common.button.submit')
 ```
 
