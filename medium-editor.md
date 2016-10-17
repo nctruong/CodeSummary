@@ -1,3 +1,6 @@
+1. adding: .editable class to text_area_tag
+1. adding: editor = new MediumEditor('.editable')
+
 ## CSS
 ```css
 // no border for textarea
