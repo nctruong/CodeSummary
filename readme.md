@@ -1,4 +1,4 @@
-# COFFESCRIP SYNTAX
+# COFFEESCRIP SYNTAX
 empty constructor
 ```CoffeeScript
   constructor: ->
