@@ -3,10 +3,7 @@ empty constructor
   constructor: ->
 ````
 
-@ is class variable
-requestRoutePlan is function's name
-(departure, arrival) is parameter
-$.get is call ajax using get method
+@ is class variable, requestRoutePlan is function's name, (departure, arrival) is parameter, $.get is call ajax using get method
 
 ```javascript
   @requestRoutePlan: (departure, arrival) ->
