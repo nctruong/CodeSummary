@@ -17,7 +17,7 @@ empty constructor
     
 ```
 
-**Loading bar
+**Loading bar**
 ```javascript
   @requestRoutePlan: (departure, arrival) ->
     request = $.get('/request/route/',
