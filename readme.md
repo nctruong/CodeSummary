@@ -11,7 +11,7 @@
   # (departure, arrival) is parameter
   # $.get is call ajax using get method
 
-```
+```ruby
   @requestRoutePlan: (departure, arrival) ->
     request = $.get('/request/route/',
       {route:
