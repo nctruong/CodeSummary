@@ -1,5 +1,5 @@
 ## Form
-** Avatar **
+**Avatar**
 ```haml
 .profile-sidebar
       / PORTLET MAIN
